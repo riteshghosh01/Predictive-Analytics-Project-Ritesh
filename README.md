@@ -1,2 +1,10 @@
 # Predictive-Analytics-Project-Ritesh
-A machine learning project predicting 30-day hospital readmissions using 30,000 patient records, built with Decision Tree &amp; Logistic Regression, 11+ visualisations, and full model evaluation. Runs on Google Colab.
+## Hospital Readmissions Prediction & Analysis
+This project looks at real-world hospital data of 30,000 patients and tries to answer one simple question — will this patient come back to the hospital within 30 days? That's what doctors call a readmission, and reducing it is one of the biggest challenges in healthcare today.
+We started by cleaning the data — handling missing values, breaking down blood pressure readings into systolic and diastolic numbers, and converting text columns into numbers so the machine learning models can understand them.
+Before jumping into predictions, we spent a good amount of time just exploring the data visually. There are over 11 charts in this project — from simple bar charts showing readmission counts, to scatter plots comparing BMI with length of stay, to pie charts breaking down where patients go after discharge. These visuals make it easy to spot patterns even without a technical background.
+Once the data was ready, we built two types of models. First, a Decision Tree — which works like a flowchart of yes/no questions and is easy to understand visually. Second, Logistic Regression — which calculates the probability of readmission based on patient details. We ran it in two ways: once using just a couple of features, and once using every single column in the dataset for maximum accuracy.
+To check how well the models actually work, we measured accuracy, plotted a confusion matrix to see where predictions went right or wrong, and drew an ROC Curve to understand the trade-off between catching real readmissions and making false alarms. We also compared how the model performed on training data vs. new unseen data to make sure it wasn't just memorizing answers.
+Finally, we wrote a simple predict_readmission() function — you put in a patient's details and it instantly tells you Readmitted or Not Readmitted.
+The whole thing runs on Google Colab, so no setup is needed. Just open, upload the dataset, and run all cells.
+## Tech: Python Pandas Scikit-learn Matplotlib Seaborn Google Colab 
