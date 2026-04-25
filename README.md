@@ -1,5 +1,4 @@
-# Predictive-Analytics-Project-Ritesh
-## Hospital Readmissions Prediction & Analysis
+# Hospital Readmissions Prediction & Analysis
 This project looks at real-world hospital data of 30,000 patients and tries to answer one simple question — will this patient come back to the hospital within 30 days? That's what doctors call a readmission, and reducing it is one of the biggest challenges in healthcare today.
 We started by cleaning the data — handling missing values, breaking down blood pressure readings into systolic and diastolic numbers, and converting text columns into numbers so the machine learning models can understand them.
 Before jumping into predictions, we spent a good amount of time just exploring the data visually. There are over 11 charts in this project — from simple bar charts showing readmission counts, to scatter plots comparing BMI with length of stay, to pie charts breaking down where patients go after discharge. These visuals make it easy to spot patterns even without a technical background.
